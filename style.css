@@ -8,6 +8,42 @@ form{
     border-radius: 20px;
     /* padding-bottom: 20%; */}
 
+    body{
+        background-color: blueviolet;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px ;
+    }
+    
+    h1{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+    }
+    
+    ul{
+        display: flex;
+        gap: 2rem;
+    }
+    
+    li{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        font-weight: 700;
+        list-style: none;
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+    li a:hover{
+        transition: .3s ease;
+        color: black;
+    }
+
 h1{
     text-align: center;
     padding-top: 5%;
@@ -64,6 +100,13 @@ p{
 span{
     color: rgb(73, 141, 214);
 }
+
+span:hover{
+    transition: 3s;
+    color: #000;
+}
+   
+
 
 
 
